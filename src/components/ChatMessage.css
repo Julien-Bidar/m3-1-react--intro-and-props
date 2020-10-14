@@ -1,0 +1,41 @@
+.chat-message {
+  margin-left: 25px;
+}
+
+.pic {
+  border-radius: 50%;
+  max-width: auto;
+  max-height: 50px;
+}
+
+.message {
+  background-color: #e9e9eb;
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.user-name {
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+
+.message-pic {
+  display: flex;
+  align-items: center;
+}
+
+.sent-message-div {
+  display: block;
+  text-align: right;
+  margin-right: 25px;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.sent-message {
+  color: white;
+  padding: 7px;
+  background-color: #1185f7;
+  border-radius: 6px;
+  margin-top: 7px;
+}
