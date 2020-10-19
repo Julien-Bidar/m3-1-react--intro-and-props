@@ -1,9 +1,10 @@
 import React from "react";
 
 import "./Header.css";
+import Avatar from "./Avatar";
 
 const Header = (props) => {
-  console.log("header props: ", props);
+  //console.log("header props: ", props);
   return (
     <header>
       {props.users

@@ -5,6 +5,7 @@ import ChatStream from "./ChatStream";
 import Footer from "./Footer";
 
 import "./App.css";
+import Avatar from "./Avatar";
 
 const App = (props) => {
   console.log(props);

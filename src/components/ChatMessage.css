@@ -6,6 +6,7 @@
   border-radius: 50%;
   max-width: auto;
   max-height: 50px;
+  margin-right: 10px;
 }
 
 .message {
@@ -15,17 +16,19 @@
 }
 
 .user-name {
-  margin-left: 50px;
+  margin-left: 60px;
   margin-bottom: 0;
 }
 
 .message-pic {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .sent-message-div {
   display: block;
+  position: relative;
   text-align: right;
   margin-right: 25px;
   margin-top: 8px;
@@ -38,4 +41,16 @@
   background-color: #1185f7;
   border-radius: 6px;
   margin-top: 7px;
+}
+
+.sent-svg {
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+}
+
+.received-svg {
+  position: absolute;
+  bottom: 2px;
+  left: 50px;
 }
